@@ -1,0 +1,91 @@
+/* Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color:mistyrose;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+.container{
+    
+    width: 99%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+img{
+    text-align: center;
+    border-radius: 15px;
+    border: 3px solid white;
+     margin: 100px ;
+     height: 200px; ;
+    width: 250px;
+}
+
+
+h1 {
+    color: black;
+    background-color:lightpink;
+    border: 3px solid white;
+    margin: 160px ;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+section{
+    background: white;
+    margin: 30px 0;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px ;
+}
+
+
+.header {
+background-color:plum;
+color: white;
+padding: 20px;
+text-align: center;
+}
+/* Banner */
+.banner {
+background-color:lightpink;
+padding: 20px;
+margin: 20px;
+border-radius: 8px;}
+
+#geral {
+    width: 400px;
+    margin: 30px auto;
+    background-color:darkgrey;
+}
+
+
+
+
+
+#bloco1,#bloco2{
+    border: 3px solid white;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color:pink;
+     
+}
+img{
+    width: 150px;
+    border: 2px solid hotpink;
+}
+
+footer{
+    background-color:lightpink ;
+    color:black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+    width: 100%;
+    border-radius: 15px;
+}
