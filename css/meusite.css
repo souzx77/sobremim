@@ -63,6 +63,12 @@ border-radius: 8px;}
     background-color:darkgrey;
 }
 
+main
+    {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
 
 
 
@@ -89,8 +95,3 @@ footer{
     border-radius: 15px;
 }
 
-.container-produtos {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 15px;
-}
