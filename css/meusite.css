@@ -51,7 +51,6 @@ h1,h2{
     
 }
 
-
 section{
     background: white;
     margin: 25px 0;
@@ -67,6 +66,7 @@ color: white;
 padding: 20px;
 text-align: center;
 }
+
 /* Banner */
 .banner {
 background-color:lightpink;
@@ -83,13 +83,6 @@ main
     gap: 15px;
 }
 
-
-
-
-
-
-
-
 footer{
     background-color:white;
     color:black;
@@ -99,4 +92,3 @@ footer{
     width: 100%;
     border-radius: 15px;
 }
-
