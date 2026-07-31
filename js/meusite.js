@@ -26,7 +26,7 @@ if(nomeDigitado === "" || comentarioDigitado === "") {
  } else {
     // Regra de sucesso
     // ETAPA 4 - Feedback de sucesso
-    mensagem.textContent = "Feednack enviado com sucesso!";
+    mensagem.textContent = "Feedback enviado com sucesso!";
     mensagem.style.color = "green";
 
 }
