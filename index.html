@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Meu Site Pessoal</title>
     <link rel="stylesheet" href="css/meusite.css">
+   
 </head>
 
 <body>
@@ -22,6 +23,8 @@
     </header>
 
     <main>
+        
+   
 
         <section id="inicio">
            
@@ -95,10 +98,27 @@
         </section>
  
     </main>
+<h3>Deixe seu Feedback sobre o Site</h3>
 
-    
-    <footer>
-<p>2026 .</p>
+    <form id="form-feedback">
+      <label for="nome">Seu Nome:</label>
+      <input type="text" id="nome" placeholder="Digite seu nome" /> 
+
+      <label for="comentario">Comentário:</label>
+      <input type="text" id="comentario" placeholder="O que achou do meu site?" />
+
+      <button type="submit" id="btn-enviar">Enviar Feedback</button>
+    </form>
+
+   
+    <div id="mensagem-feedback"></div>
+
+   
+    <h3>Comentários Recentes:</h3>
+    <ul id="lista-comentarios"></ul>
+
+    <script src="../js/meusite.js"></script>
+   
 
     </footer>
 

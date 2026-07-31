@@ -59,12 +59,15 @@ section{
     box-shadow: 0 4px 10px ;
 }
 
-
 .header {
 background-color:plum;
 color: white;
 padding: 20px;
 text-align: center;
+
+
+    
+   
 }
 
 /* Banner */
@@ -92,3 +95,26 @@ footer{
     width: 100%;
     border-radius: 15px;
 }
+
+
+h3{
+    color:black
+}
+form {
+        margin-bottom: 20px;
+        display: flex; 
+        flex-direction: column;
+        width: 300px;
+      }
+      input {
+        margin-bottom: 10px;
+        padding: 5px;
+      }
+      button {
+        padding: 10px;
+        cursor: pointer; 
+      }
+      #mensagem-feedback {
+        margin-top: 10px;
+        font-weight: bold;
+      }
